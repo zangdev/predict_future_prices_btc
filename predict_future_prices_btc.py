@@ -11,7 +11,7 @@ def get_bitcoin_price():
     try:
         url = "https://bitcoinaverage-global-bitcoin-index-v1.p.rapidapi.com/indices/global/ticker/BTCUSD"
         headers = {
-            "X-RapidAPI-Key": "b204f4c757msh7af6d9244ca8807p166086jsne81ed71fea4a",
+            "X-RapidAPI-Key": "*************************",
             "X-RapidAPI-Host": "bitcoinaverage-global-bitcoin-index-v1.p.rapidapi.com"
         }
         response = requests.get(url, headers=headers)
